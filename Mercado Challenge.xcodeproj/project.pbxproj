@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0A23D84A08F6B9398D16926 /* Pods_Mercado_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F735888A5B2E6F5240FB27C /* Pods_Mercado_Challenge.framework */; };
+		F004D0E7258D26B2000F37CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D0E6258D26B2000F37CA /* AppDelegate.swift */; };
+		F004D0E9258D26B2000F37CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D0E8258D26B2000F37CA /* SceneDelegate.swift */; };
+		F004D0EB258D26B2000F37CA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D0EA258D26B2000F37CA /* SearchViewController.swift */; };
+		F004D0EE258D26B2000F37CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F004D0EC258D26B2000F37CA /* Main.storyboard */; };
+		F004D0F0258D26B4000F37CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F004D0EF258D26B4000F37CA /* Assets.xcassets */; };
+		F004D0F3258D26B4000F37CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F004D0F1258D26B4000F37CA /* LaunchScreen.storyboard */; };
+		F004D101258D7C92000F37CA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004D100258D7C92000F37CA /* HistoryViewController.swift */; };
+		F04DC065258E4284000EE823 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04DC064258E4284000EE823 /* ProductViewController.swift */; };
+		F0BC0D3325910D580064C819 /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC0D3225910D580064C819 /* ProductManager.swift */; };
+		F0BC0D36259145F40064C819 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC0D35259145F40064C819 /* ProductModel.swift */; };
+		F0BC0D39259194860064C819 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC0D38259194860064C819 /* Constants.swift */; };
+		F0BC0D3D25919EF30064C819 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BC0D3B25919EF30064C819 /* ProductCell.swift */; };
+		F0BC0D3E25919EF30064C819 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0BC0D3C25919EF30064C819 /* ProductCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F735888A5B2E6F5240FB27C /* Pods_Mercado_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mercado_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F759821DC5266B7C99CA2E /* Pods-Mercado Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercado Challenge.release.xcconfig"; path = "Target Support Files/Pods-Mercado Challenge/Pods-Mercado Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		5D4116479A70EB8CC336E320 /* Pods-Mercado Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mercado Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Mercado Challenge/Pods-Mercado Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		F004D0E3258D26B2000F37CA /* Mercado Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mercado Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F004D0E6258D26B2000F37CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F004D0E8258D26B2000F37CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F004D0EA258D26B2000F37CA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F004D0ED258D26B2000F37CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F004D0EF258D26B4000F37CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F004D0F2258D26B4000F37CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F004D0F4258D26B4000F37CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F004D100258D7C92000F37CA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F04DC064258E4284000EE823 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		F0BC0D3225910D580064C819 /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		F0BC0D35259145F40064C819 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		F0BC0D38259194860064C819 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F0BC0D3B25919EF30064C819 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		F0BC0D3C25919EF30064C819 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F004D0E0258D26B2000F37CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A23D84A08F6B9398D16926 /* Pods_Mercado_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052F482B2922E204294DE701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F735888A5B2E6F5240FB27C /* Pods_Mercado_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A9F81416F85AB19E7FC116E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D4116479A70EB8CC336E320 /* Pods-Mercado Challenge.debug.xcconfig */,
+				20F759821DC5266B7C99CA2E /* Pods-Mercado Challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F004D0DA258D26B2000F37CA = {
+			isa = PBXGroup;
+			children = (
+				F004D0E5258D26B2000F37CA /* Mercado Challenge */,
+				F004D0E4258D26B2000F37CA /* Products */,
+				0A9F81416F85AB19E7FC116E /* Pods */,
+				052F482B2922E204294DE701 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F004D0E4258D26B2000F37CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F004D0E3258D26B2000F37CA /* Mercado Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F004D0E5258D26B2000F37CA /* Mercado Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				F004D0E6258D26B2000F37CA /* AppDelegate.swift */,
+				F004D0E8258D26B2000F37CA /* SceneDelegate.swift */,
+				F004D0FD258D6451000F37CA /* Controllers */,
+				F004D0FC258D6426000F37CA /* Data Model */,
+				F004D0FE258D6460000F37CA /* Views */,
+				F004D0FF258D6475000F37CA /* Supporting Files */,
+				F004D0F4258D26B4000F37CA /* Info.plist */,
+				F0BC0D38259194860064C819 /* Constants.swift */,
+			);
+			path = "Mercado Challenge";
+			sourceTree = "<group>";
+		};
+		F004D0FC258D6426000F37CA /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0BC0D3225910D580064C819 /* ProductManager.swift */,
+				F0BC0D35259145F40064C819 /* ProductModel.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		F004D0FD258D6451000F37CA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F004D0EA258D26B2000F37CA /* SearchViewController.swift */,
+				F004D100258D7C92000F37CA /* HistoryViewController.swift */,
+				F04DC064258E4284000EE823 /* ProductViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F004D0FE258D6460000F37CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F004D0EC258D26B2000F37CA /* Main.storyboard */,
+				F0BC0D3B25919EF30064C819 /* ProductCell.swift */,
+				F0BC0D3C25919EF30064C819 /* ProductCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F004D0FF258D6475000F37CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F004D0EF258D26B4000F37CA /* Assets.xcassets */,
+				F004D0F1258D26B4000F37CA /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F004D0E2258D26B2000F37CA /* Mercado Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F004D0F7258D26B4000F37CA /* Build configuration list for PBXNativeTarget "Mercado Challenge" */;
+			buildPhases = (
+				0BF8171181E4408CDFEEDBC4 /* [CP] Check Pods Manifest.lock */,
+				F004D0DF258D26B2000F37CA /* Sources */,
+				F004D0E0258D26B2000F37CA /* Frameworks */,
+				F004D0E1258D26B2000F37CA /* Resources */,
+				38BD094EA671452B0C26DA59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mercado Challenge";
+			productName = "Mercado Challenge";
+			productReference = F004D0E3258D26B2000F37CA /* Mercado Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F004D0DB258D26B2000F37CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = jony;
+				TargetAttributes = {
+					F004D0E2258D26B2000F37CA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F004D0DE258D26B2000F37CA /* Build configuration list for PBXProject "Mercado Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F004D0DA258D26B2000F37CA;
+			productRefGroup = F004D0E4258D26B2000F37CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F004D0E2258D26B2000F37CA /* Mercado Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F004D0E1258D26B2000F37CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F004D0F3258D26B4000F37CA /* LaunchScreen.storyboard in Resources */,
+				F0BC0D3E25919EF30064C819 /* ProductCell.xib in Resources */,
+				F004D0F0258D26B4000F37CA /* Assets.xcassets in Resources */,
+				F004D0EE258D26B2000F37CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BF8171181E4408CDFEEDBC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mercado Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38BD094EA671452B0C26DA59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mercado Challenge/Pods-Mercado Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mercado Challenge/Pods-Mercado Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mercado Challenge/Pods-Mercado Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F004D0DF258D26B2000F37CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F004D0EB258D26B2000F37CA /* SearchViewController.swift in Sources */,
+				F0BC0D3325910D580064C819 /* ProductManager.swift in Sources */,
+				F004D0E7258D26B2000F37CA /* AppDelegate.swift in Sources */,
+				F004D0E9258D26B2000F37CA /* SceneDelegate.swift in Sources */,
+				F04DC065258E4284000EE823 /* ProductViewController.swift in Sources */,
+				F0BC0D36259145F40064C819 /* ProductModel.swift in Sources */,
+				F0BC0D3D25919EF30064C819 /* ProductCell.swift in Sources */,
+				F004D101258D7C92000F37CA /* HistoryViewController.swift in Sources */,
+				F0BC0D39259194860064C819 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F004D0EC258D26B2000F37CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F004D0ED258D26B2000F37CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F004D0F1258D26B4000F37CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F004D0F2258D26B4000F37CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F004D0F5258D26B4000F37CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F004D0F6258D26B4000F37CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F004D0F8258D26B4000F37CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4116479A70EB8CC336E320 /* Pods-Mercado Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6W97QH5U9;
+				INFOPLIST_FILE = "Mercado Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonatanggarcia.Mercado-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F004D0F9258D26B4000F37CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F759821DC5266B7C99CA2E /* Pods-Mercado Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6W97QH5U9;
+				INFOPLIST_FILE = "Mercado Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jonatanggarcia.Mercado-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F004D0DE258D26B2000F37CA /* Build configuration list for PBXProject "Mercado Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F004D0F5258D26B4000F37CA /* Debug */,
+				F004D0F6258D26B4000F37CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F004D0F7258D26B4000F37CA /* Build configuration list for PBXNativeTarget "Mercado Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F004D0F8258D26B4000F37CA /* Debug */,
+				F004D0F9258D26B4000F37CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F004D0DB258D26B2000F37CA /* Project object */;
+}
